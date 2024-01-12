@@ -197,7 +197,7 @@ const App = () => {
   }, [setting])
 
   const createExportName = (name: string): string => {
-    return name.replace(/ /gi, "_").replace(/-/gi, "_").replace(/=/gi, "_").replace(/,/gi, "_").replace(/\//gi, "_");
+    return name.replace(/ /gi, "_").replace(/-/gi, "_").replace(/=/gi, "_").replace(/,/gi, "_");
   }
 
   useEffect(() => {
